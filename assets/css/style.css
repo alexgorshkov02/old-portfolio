@@ -1,0 +1,174 @@
+body {
+  background-color: #ededf7;
+}
+
+.wrapper {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: space-around; 
+    /* flex-flow: row wrap; */
+    /* flex-wrap: wrap; */
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* width: 100%; */
+}
+/* 
+header h1 {
+  font-weight: bold;
+  margin: 0;
+  font-size: 36px;
+  color: #fce138;
+} */
+
+/* .side_frame {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    /* flex: 200px; */
+    /* justify-content: normal; */
+/* } */ 
+
+/* .main_frame {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    /* flex: 200px; */
+    /* justify-content: normal; */
+/* } */ 
+/* 
+section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 200px;
+  justify-content: space-around;
+} */
+
+/* div {
+  height: 250px;
+  width: 250px;
+  color: red;
+  background-color: #555;
+} */
+.frame {
+    display: flex;
+    width: 80%;
+}
+
+/* Side titles */
+.title {
+  /* border-style: solid; */
+  /* height: 150px;  */
+  border-right: 5px solid #435d7e;
+  width: 200px;
+
+  /* TODO: Indent??? */
+  text-indent: 10px;
+  direction: rtl;
+  text-align: right;
+}
+
+/* Content for the titles */
+.content {
+    display: flex; 
+    /* height: 350px; */
+    /* width: fit-content; */
+    color: red;
+    border-style: solid;
+    background-color: rgb(209, 201, 201);
+    text-align: left;
+    /* align-items: center; */
+
+    /* To fill to whole space to the left side */
+    flex: 1; 
+    /* margin-right: auto; */
+}
+
+h2 {
+    font-size: 50px;
+    color: #435d7e;
+}
+
+#all_projects {
+    display: flex; 
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#projects {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#large_project {
+    /* height: fit-content; */
+    /* width: fit-content; */
+    color: yellow;
+    border-style: solid;
+    background-color: rgb(209, 201, 201);
+    text-align: center;
+    /* align-items: center; */
+    flex: 1; 
+    /* margin-right: auto; */
+    /* position: relative; */
+    /* float: left; 
+    position: relative;  */
+}
+
+#project {
+    height: 250px;
+    /* width: 50px; */
+    flex-direction: row;
+    /* width: fit-content; */
+    color: green;
+    border-style: solid;
+    background-color: rgb(209, 201, 201);
+    text-align: left;
+    /* align-items: center; */
+    
+    /* To fill to whole space to the left side */
+    flex: 1; 
+    /* margin-right: auto; */
+}
+
+#large_project img {
+  height: 100%;
+  width: 100%;
+  filter: blur(4px);
+
+  /* position: absolute; */
+  /* position: relative; 
+  top: 0; 
+  right: 0;  */
+}
+
+#project img {
+  height: 100%;
+  width: 100%;
+  filter: blur(4px);
+}
+
+#large_project img:hover {
+  filter: blur(0px);
+}
+
+#project img:hover {
+  filter: blur(0px);
+}
+
+/* #large_project { 
+  float: left; 
+  position: relative; 
+}  */
+
+/* #name { 
+  position: relative; 
+  top: 0; 
+  right: 0; 
+  filter: blur(0px);  */
+  
+} 
