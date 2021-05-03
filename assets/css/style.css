@@ -144,6 +144,11 @@ h4 {
   margin: auto;
   text-decoration: none;
 }
+
+/* To remove an initial underline for links*/
+header div a {
+  text-decoration: none;
+}
 /* Links styles END */
 
 /* Images styles START */
