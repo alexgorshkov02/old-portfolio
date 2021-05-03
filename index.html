@@ -1,64 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>My portfolio</title>
-  </head>
 
-  <body>
-    <h1>My portfolio</h1>
-    <header></header>
-    <!-- <section>
-      <div id="title">About Me</div>
-      <div>2</div>
-    </section> -->
-    <section class ="wrapper">
-        <section class = "frame">
-            <div class = "title"> <h2> About Me</h2></div>
-            <div class = "content">Text about myself</div>
-        </section>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <title>My portfolio</title>
+</head>
 
-        <section class = "frame">
-            <div class = "title"> <h2> Work </h2> </div>
-            <div class = "content" id="all_projects">
-                <div id = "large_project">
-                  <img src="./assets/images/projectPreviews/surfReport.jpg" alt="Serf Report project" />
-                  <img src="./assets/images/projectNames/surfReport.jpg" alt="Serf Report name" id = "name" />
-                </div>
-                <div id = "projects">
-                    <div id = "project">
-                      <img src="./assets/images/projectPreviews/LEDWall.png" alt="LED Wall" />
-                    </div>
-                    <div id = "project">
-                      <img src="./assets/images/projectPreviews/calculator.jpg" alt="Calculator" />
-                    </div>
-                </div>
-                <div id = "projects">
-                    <div id = "project">
-                      <img src="./assets/images/projectPreviews/pastelPuzzels.jpg" alt="Pastel Puzzels" />
-                    </div>
-                    <div id = "project">
-                      <img src="./assets/images/projectPreviews/runBuddy.jpg" alt="Run Buddy" />
-                    </div>
-                </div>
-            </div>
-        </section>
+<body>
 
-        <section class = "frame">
-            <div class = "title"> <h2>Contact Me </h2> </div>
-            <div class = "content">Text about myself</div>
-        </section>
+  <!-- Navigation menu START -->
+  <header>
+    <div>
+      <h1>Alexander Gorshkov</h1>
+    </div>
+    <div id="links">
+      <div>
+        <a href="#about_me">
+          <h3>About Me</h3>
+        </a>
+      </div>
+      <div>
+        <a href="#work">
+          <h3>Work</h3>
+        </a>
+      </div>
+      <div>
+        <a href="#contact_me">
+          <h3>Contact Me</h3>
+        </a>
+      </div>
+      <div>
+        <a href="#resume">
+          <h3>Resume</h3>
+        </a>
+      </div>
+    </div>
+  </header>
+  <!-- Navigation menu END -->
+
+  <!-- Image line START -->
+  <nav>
+    <div>My portfolio</div>
+  </nav>
+  <!-- Image line END -->
+
+  <!-- Main content START -->
+  <section class="wrapper">
+
+    <!-- About me section START -->
+    <section class="frame">
+
+      <!-- TODO: Learn about a way how to rid of the class and id at the same time. Used id to make a link. CSS property is required as well -->
+      <div class="title" id="about_me">
+        <h2>About Me</h2>
+      </div>
+      <div class="content"> <h4>Hi there! My name is Alexander Gorshkov. I am studying at UCF Boot Camp. You can find my
+        projects below.</h4></div>
     </section>
-    
-    <!-- <section>
-        <div id="title">Contact Me</div>
-        <div>2</div>
-        <div>3</div>
-        <div>4</div> -->
-      </section>
-    <footer></footer>
-  </body>
+    <!-- About me section END -->
+
+    <!-- Work section START -->
+    <section class="frame">
+      <div class="title" id="work">
+        <h2>Work</h2>
+      </div>
+
+      <!-- TODO: Learn about a way how to rid of the class and id at the same time. Used id to make a link. CSS property is required as well -->
+      <div class="content" id="all_projects">
+        <div id="large_project">
+          <img src="./assets/images/projectPreviews/surfReport.jpg" alt="Serf Report project" />
+          <img src="./assets/images/projectNames/surfReport.jpg" alt="Serf Report name" class="name" />
+        </div>
+        <div class="projects">
+          <div class="project">
+            <img src="./assets/images/projectPreviews/LEDWall.png" alt="LED Wall" />
+            <img src="./assets/images/projectNames/LEDWall.jpg" alt="Serf Report name" class="name" />
+          </div>
+          <div class="project">
+            <img src="./assets/images/projectPreviews/calculator.jpg" alt="Calculator" />
+            <img src="./assets/images/projectNames/calculator.jpg" alt="Calculator name" class="name" />
+          </div>
+        </div>
+        <div class="projects">
+          <div class="project">
+            <img src="./assets/images/projectPreviews/pastelPuzzels.jpg" alt="Pastel Puzzels" />
+            <img src="./assets/images/projectNames/pastelPuzzels.jpg" alt="Pastel Puzzels name" class="name" />
+          </div>
+          <div class="project">
+            <img src="./assets/images/projectPreviews/runBuddy.jpg" alt="Run Buddy" />
+            <img src="./assets/images/projectNames/runBuddy.jpg" alt="Run Buddy name" class="name" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Work section END -->
+
+    <!-- Contact section START -->
+    <section class="frame">
+
+      <!-- TODO: Learn about a way how to rid of the class and id at the same time. Used id to make a link. CSS property is required as well -->
+      <div class="title" id="contact_me">
+        <h2>Contact Me</h2>
+      </div>
+      <div class="content">
+        <a href="callto:8572344442">
+          <h3>857.234.4442</h3>
+        </a>
+        <a href="mailto: alexgorshkov0290@gmail.com">
+          <h3>alexgorshkov0290@gmail.com</h3>
+        </a>
+        <a href="https://github.com/alexgorshkov02">
+          <h3>GitHub</h3>
+        </a>
+        <a href="https://www.linkedin.com/in/alexander-gorshkov-212915119/">
+          <h3>LinkedIIn</h3>
+        </a>
+      </div>
+    </section>
+    <!-- Contact section END -->
+  </section>
+  <!-- Main content END -->
+</body>
 </html>
