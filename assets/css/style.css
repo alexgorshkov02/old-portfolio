@@ -146,7 +146,7 @@ h4 {
 }
 
 /* To remove an initial underline for links*/
-header div a {
+#links a {
   text-decoration: none;
 }
 /* Links styles END */
