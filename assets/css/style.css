@@ -83,6 +83,8 @@ nav div {
   /* To fill to whole space to the left side */
   flex: 1;
   position: relative;
+  /* To do not blur an image border */
+  overflow: hidden;
 }
 
 .projects {
@@ -101,6 +103,8 @@ nav div {
   position: relative;
   border-style: solid;
   border-color: #91cbcd;
+  /* To do not blur an image border */
+  overflow: hidden;
 }
 /* Main content section END*/
 
