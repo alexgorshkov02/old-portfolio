@@ -13,7 +13,7 @@
 
   <!-- Navigation menu START -->
   <header>
-    <div>
+    <div id = "name_surname">
       <h1>Alexander Gorshkov</h1>
     </div>
     <div id="links">
@@ -32,7 +32,7 @@
           <h3>Contact Me</h3>
         </a>
       </div>
-      <div>
+      <div id = "resume_navigation_menu">
         <a href="#resume">
           <h3>Resume</h3>
         </a>
@@ -43,6 +43,7 @@
 
   <!-- Image line START -->
   <nav>
+    <div><img src="./assets/images/avatar.jpg" alt="Avatar" class="avatar"/></div>
     <div><h1>My portfolio</h1></div>
   </nav>
   <!-- Image line END -->
@@ -52,8 +53,6 @@
 
     <!-- About me section START -->
     <section class="frame">
-
-      <!-- TODO: Learn about a way how to rid of the class and id at the same time. Used id to make a link. CSS property is required as well -->
       <div class="title" id="about_me">
         <h2>About Me</h2>
       </div>
@@ -68,9 +67,9 @@
         <h2>Work</h2>
       </div>
 
-      <!-- TODO: Learn about a way how to rid of the class and id at the same time. Used id to make a link. CSS property is required as well -->
-      <div class="content" id="all_projects">
-        <div id="large_project">
+      <div class="content">
+        <!-- TODO: Learn about a way how to rid of the class and id at the same time. Used id to make a link. CSS property is required as well -->
+        <div class="project" id="large_image">
           <img src="./assets/images/projectPreviews/surfReport.jpg" alt="Serf Report project" />
           <img src="./assets/images/projectNames/surfReport.jpg" alt="Serf Report name" class="name" />
         </div>
@@ -99,9 +98,7 @@
     <!-- Work section END -->
 
     <!-- Contact section START -->
-    <section class="frame">
-
-      <!-- TODO: Learn about a way how to rid of the class and id at the same time. Used id to make a link. CSS property is required as well -->
+    <footer class="frame">
       <div class="title" id="contact_me">
         <h2>Contact Me</h2>
       </div>
@@ -119,7 +116,7 @@
           <h3>LinkedIIn</h3>
         </a>
       </div>
-    </section>
+    </footer>
     <!-- Contact section END -->
   </section>
   <!-- Main content END -->
